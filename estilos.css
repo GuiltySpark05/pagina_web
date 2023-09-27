@@ -1,7 +1,44 @@
-body{
-    background-color: black;
+
+.header-with-bg {
+    background-image: url('../pagina_web/source/product_cctv_banner-2-1024x373.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el encabezado */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 100px 0; /* Espaciado interno superior e inferior para el encabezado */
+    text-align: center; /* Centra el contenido del encabezado */
+    position: relative; /* Permite posicionar elementos secundarios con respecto a este elemento */
 }
-h1{
-    color: red;
-    text-align: center;  
+/* Estilos para el menú de navegación */
+.header-with-bg nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el menú */
+    padding: 10px 0; /* Espaciado interno superior e inferior para el menú */
+    position: absolute; /* Permite posicionar el menú de manera absoluta */
+    bottom: 0; /* Lo coloca en la parte inferior del encabezado */
+    left: 0; /* Lo coloca en la parte izquierda del encabezado */
+    right: 0; /* Lo coloca en la parte derecha del encabezado */
+    text-align:justify; /* Centra los elementos del menú */
 }
+
+/* Estilos para los elementos de lista en el menú */
+.header-with-bg nav ul {
+    list-style-type: none;
+}
+
+.header-with-bg nav ul li {
+    display: inline;
+    margin: 0 20px; /* Espacio horizontal entre elementos de lista */
+}
+
+.header-with-bg nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff; /* Borde blanco */
+    padding: 10px 15px; /* Espaciado interno para hacer los botones más grandes */
+    border-radius: 10px; /* Bordes redondeados para dar estilo */
+}
+
+
+
+
+
