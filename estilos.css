@@ -1,5 +1,16 @@
 
-.header-with-bg {
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-with-bg img{
+    width: 33%;
+    height: 20%;
+}
+/* Estilos para el encabezado con imagen de fondo */
+.header-with-bg {   
     background-image: url('../pagina_web/source/product_cctv_banner-2-1024x373.jpg'); /* Ruta de tu imagen de fondo */
     background-size: cover; /* Ajusta la imagen de fondo para cubrir el encabezado */
     background-position: center; /* Centra la imagen de fondo */
@@ -18,24 +29,27 @@
     right: 0; /* Lo coloca en la parte derecha del encabezado */
     text-align:justify; /* Centra los elementos del menú */
 }
-
 /* Estilos para los elementos de lista en el menú */
 .header-with-bg nav ul {
     list-style-type: none;
 }
-
 .header-with-bg nav ul li {
+    font-family:'Verdana, Geneva, Tahoma,'ans-serif;
     display: inline;
-    margin: 0 20px; /* Espacio horizontal entre elementos de lista */
+    margin: 0 10px; /* Espacio horizontal entre elementos de lista */
 }
-
 .header-with-bg nav ul li a {
-    text-decoration: none;
+    text-decoration:solid;
     color: #fff;
     font-weight: bold;
-    border: 2px solid #fff; /* Borde blanco */
+    border: 2px seashell solid; /* Borde blanco */
     padding: 10px 15px; /* Espaciado interno para hacer los botones más grandes */
     border-radius: 10px; /* Bordes redondeados para dar estilo */
+}
+#titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 
