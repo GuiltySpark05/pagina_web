@@ -68,7 +68,7 @@ body{
 }
 /* Titulo inicio*/
 #titulo{
-    margin: 5px;/* Espaciado interno superior e inferior */
+    margin: 10px;/* Espaciado interno superior e inferior */
     padding-right: 30px;/* Espaciado interno derecho */
     text-align:center;/* Centra el contenido */
     font-size: 70px;/* Tamaño de la fuente */
