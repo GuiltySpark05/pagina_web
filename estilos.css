@@ -1,10 +1,11 @@
-
+/* Estilos para el body general */
 body{
     background-color: #fff;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Estilos para el logo del encabezado */
 .header-with-bg img{
     width: 33%;
     height: 20%;
@@ -15,26 +16,27 @@ body{
     background-size: cover; /* Ajusta la imagen de fondo para cubrir el encabezado */
     background-position: center; /* Centra la imagen de fondo */
     color: #fff; /* Color del texto en el encabezado */
-    padding: 100px 0; /* Espaciado interno superior e inferior para el encabezado */
+    padding: 100px 0 ; /* Espaciado interno superior e inferior para el encabezado */
     text-align: center; /* Centra el contenido del encabezado */
     position: relative; /* Permite posicionar elementos secundarios con respecto a este elemento */
 }
 /* Estilos para el menú de navegación */
 .header-with-bg nav {
     background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el menú */
-    padding: 10px 0; /* Espaciado interno superior e inferior para el menú */
+    padding: 10px 10px; /* Espaciado interno superior e inferior para el menú */
     position: absolute; /* Permite posicionar el menú de manera absoluta */
     bottom: 0; /* Lo coloca en la parte inferior del encabezado */
     left: 0; /* Lo coloca en la parte izquierda del encabezado */
     right: 0; /* Lo coloca en la parte derecha del encabezado */
-    text-align:justify; /* Centra los elementos del menú */
+    text-align: left; /* Centra los elementos del menú */
 }
 /* Estilos para los elementos de lista en el menú */
 .header-with-bg nav ul {
     list-style-type: none;
+    padding: 10px 0; /* Espaciado interno para los elementos de lista */
 }
 .header-with-bg nav ul li {
-    font-family:'Verdana, Geneva, Tahoma,'ans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: inline;
     margin: 0 10px; /* Espacio horizontal entre elementos de lista */
 }
@@ -43,13 +45,34 @@ body{
     color: #fff;
     font-weight: bold;
     border: 2px seashell solid; /* Borde blanco */
-    padding: 10px 15px; /* Espaciado interno para hacer los botones más grandes */
+    padding: 10px 10px; /* Espaciado interno para hacer los botones más grandes */
     border-radius: 10px; /* Bordes redondeados para dar estilo */
 }
+@media screen and (max-width: 768px) {
+    .header-with-bg nav {
+        position: static; /* Cambia a posición estática para ajustarse al flujo normal */
+        background-color: transparent; /* Fondo transparente */
+        text-align: center; /* Centra los elementos del menú */
+    }
+
+    .header-with-bg nav ul li {
+        display: block; /* Muestra cada elemento en una línea separada */
+        margin: 5px 0; /* Agrega espacio entre elementos */
+    }
+
+    .header-with-bg nav ul li a {
+        display: block; /* Muestra cada enlace en una línea separada */
+        margin: 5px auto; /* Centra los enlaces horizontalmente */
+        width: 80%; /* Ajusta el ancho de los enlaces */
+    }
+}
+/* Titulo inicio*/
 #titulo{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
+    margin: 5px;/* Espaciado interno superior e inferior */
+    padding-right: 30px;/* Espaciado interno derecho */
+    text-align:center;/* Centra el contenido */
+    font-size: 70px;/* Tamaño de la fuente */
+    font-weight: bold;/* Negrita */
 }
 
 
