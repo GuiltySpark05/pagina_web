@@ -1,6 +1,7 @@
+/*Estilos para HTML*/
 /* Estilos para el body general */
 body{
-    background-color: #fff;
+    background-color: grey;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,8 +75,35 @@ body{
     font-size: 70px;/* Tamaño de la fuente */
     font-weight: bold;/* Negrita */
 }
-
-
+/* Estilos para el contenedor del carrusel */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+.carousel img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+#prevBtn, #nextBtn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+#prevBtn:hover, #nextBtn:hover {
+    background-color: #555;
+}
 
 
 
