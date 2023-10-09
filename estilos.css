@@ -13,7 +13,7 @@ body{
 }
 /* Estilos para el encabezado con imagen de fondo */
 .header-with-bg {   
-    background-image: url('../pagina_web/source/product_cctv_banner-2-1024x373.jpg'); /* Ruta de tu imagen de fondo */
+    background-image: url('source/product_cctv_banner-2-1024x373.jpg'); /* Ruta de tu imagen de fondo */
     background-size: cover; /* Ajusta la imagen de fondo para cubrir el encabezado */
     background-position: center; /* Centra la imagen de fondo */
     color: #fff; /* Color del texto en el encabezado */
@@ -45,7 +45,7 @@ body{
     text-decoration:solid;
     color: #fff;
     font-weight: bold;
-    border: 2px seashell solid; /* Borde blanco */
+    border: 2px solid seashell; /* Borde blanco */
     padding: 10px 10px; /* Espaciado interno para hacer los botones más grandes */
     border-radius: 10px; /* Bordes redondeados para dar estilo */
 }
@@ -67,43 +67,38 @@ body{
         width: 80%; /* Ajusta el ancho de los enlaces */
     }
 }
-/* Titulo inicio*/
 #titulo{
-    margin: 10px;/* Espaciado interno superior e inferior */
-    padding-right: 30px;/* Espaciado interno derecho */
-    text-align:center;/* Centra el contenido */
-    font-size: 70px;/* Tamaño de la fuente */
-    font-weight: bold;/* Negrita */
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
 }
 /* Estilos para el contenedor del carrusel */
 .carousel-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;   
+    text-align: center;
 }
+
 .carousel {
-    display: flex;
     overflow: hidden;
+    width: 500px; /* Cambia esto al ancho deseado para una imagen */
+    max-width: 100%; /* Para asegurar que se ajuste al contenedor */
+    position: relative;
 }
-.carousel img {
-    width: 100%;
-    max-width: 900px;
-    height: auto;
+
+.carousel-inner {
+    display: flex;
     transition: transform 0.5s ease;
 }
-#prevBtn, #nextBtn {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-    border: none;
-    outline: none;
+
+.carousel img {
+    width: 500px; /* Ajusta el valor al ancho de tus imágenes */
+    height: auto;
 }
-#prevBtn:hover, #nextBtn:hover {
-    background-color: #555;
-}
+
 
 
 
