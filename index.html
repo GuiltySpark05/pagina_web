@@ -19,6 +19,15 @@
             </ul>
         </nav>
     </header>
+    <div class="menu-container">
+        <nav class="menu">
+            <ul>
+                <li><button class="menu-boton" onclick="location.href='#Sistema de alarma'">Sistema de alarmas</button></li>
+                <li><button class="menu-boton" onclick="location.href='#App'">Aplicación Móvil</button></li>
+                <li><button class="menu-boton" onclick="location.href='#Camaras'"">Camaras y Alarmas</button></li>
+            </ul>
+        </nav>
+    </div>
     <div class="carousel-container">   
         <button id="prevBtn">Anterior</button>
         <div class="carousel">
@@ -31,15 +40,38 @@
         </div>
         <button id="nextBtn">Siguiente</button>
     </div>
+    <section id="Sistema de alarma">
     <div id="titulo">
         <h1>MONITOREO DE ALARMAS</h1>
         <h3>SERVICIO DE MONITOREO</h3>
     </div>
-        <p id="parrafo">Lo que usted necesita:<br>
-        Seguridad para su hogar , empresa o comercio.<br>    
-        Que ofrecemos:<br>            
-        Un servicio personalizado acorde a su requerimiento en particular.<br>            
-        Que garantizamos:<br>          
-        Satisfacción por recibir un servicio que cumple con normas IRAN e ISO, con el respaldo de personal capacitado permanentemente.</p>   
+    <table class="content">
+        <tr>
+            <td class="text-cell">
+                <p>Lo que usted necesita:<br>
+                Seguridad para su hogar, empresa o comercio.</p>
+            </td>
+            <td class="image-cell" rowspan="3" align="right">
+                <img id="imagen" src="source/Sistemas-de-Alarma1.jpg" alt="Descripción de la imagen">
+            </td>
+        </tr>
+        <tr>
+            <td class="text-cell">
+                <p>Que ofrecemos:<br>            
+                Un servicio personalizado acorde a su requerimiento en particular.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-cell">
+                <p>Que garantizamos:<br>          
+                Satisfacción por recibir un servicio que cumple con normas IRAN e ISO, con<br>
+                el respaldo de personal capacitado permanentemente.</p>
+            </td>
+        </tr>
+    </table>
+    </section> 
+    <section id="App">
+
+    </section> 
     </body>
 </html>
