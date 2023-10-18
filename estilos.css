@@ -1,4 +1,3 @@
-/*Estilos para HTML*/
 /* Estilos para el body general */
 body {
     background-color: #ffffff;
@@ -7,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative; /* Añade una posición relativa para que los elementos secundarios estén posicionados correctamente */
+    position: relative;
 }
 /* Estilos para el logo del encabezado */
 .header-with-bg img{
@@ -16,66 +15,66 @@ body {
 }
 /* Estilos para el encabezado con imagen de fondo */
 .header-with-bg {   
-    background-image: url('source/product_cctv_banner-2-1024x373.jpg'); /* Ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta la imagen de fondo para cubrir el encabezado */
-    background-position: center; /* Centra la imagen de fondo */
-    color: #fff; /* Color del texto en el encabezado */
-    padding: 100px 0 ; /* Espaciado interno superior e inferior para el encabezado */
-    text-align: center -10px; /* Centra el contenido del encabezado */
-    position: relative; /* Permite posicionar elementos secundarios con respecto a este elemento */
+    background-image: url('source/product_cctv_banner-2-1024x373.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    padding: 100px 0 ; 
+    text-align: center -10px; 
+    position: relative;
 }
 /* Estilos para el menú de navegación */
 .header-with-bg nav {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el menú */
-    padding: 0px 10px; /* Espaciado interno superior e inferior para el menú */
-    position: absolute; /* Permite posicionar el menú de manera absoluta */
-    bottom: 0; /* Lo coloca en la parte inferior del encabezado */
-    left: 0; /* Lo coloca en la parte izquierda del encabezado */
-    right: 0; /* Lo coloca en la parte derecha del encabezado */
-    text-align: left; /* Centra los elementos del menú */
+    background-color: rgba(0, 0, 0, 0.7);  
+    padding: 0px 10px; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: left;
 }
 /* Estilos para los elementos de lista en el menú */
 .header-with-bg nav ul {
     list-style-type: none;
-    padding: 10px 0; /* Espaciado interno para los elementos de lista */
+    padding: 10px 0; 
 }
 .header-with-bg nav ul li {
     font-family: Arial, Helvetica, sans-serif;
     display: inline;
-    margin: 0 10px; /* Espacio horizontal entre elementos de lista */
+    margin: 0 10px;
 }
 .header-with-bg nav ul li a {
     text-decoration:solid;
     color: #fff;
     font-weight: bold;
-    border: 2px solid seashell; /* Borde blanco */
-    padding: 10px 10px; /* Espaciado interno para hacer los botones más grandes */
-    border-radius: 10px; /* Bordes redondeados para dar estilo */
+    border: 2px solid seashell; 
+    padding: 10px 10px; 
+    border-radius: 10px; 
 }
 @media screen and (max-width: 768px) {
     .header-with-bg nav {
-        position: static; /* Cambia a posición estática para ajustarse al flujo normal */
-        background-color: transparent; /* Fondo transparente */
-        text-align: center; /* Centra los elementos del menú */
+        position: static; 
+        background-color: transparent; 
+        text-align: center;
     }
 
     .header-with-bg nav ul li {
-        display: block; /* Muestra cada elemento en una línea separada */
-        margin: 5px 0; /* Agrega espacio entre elementos */
+        display: block; 
+        margin: 5px 0;
     }
 
     .header-with-bg nav ul li a {
-        display: block; /* Muestra cada enlace en una línea separada */
-        margin: 5px auto; /* Centra los enlaces horizontalmente */
-        width: 80%; /* Ajusta el ancho de los enlaces */
+        display: block; 
+        margin: 5px auto; 
+        width: 80%;
     }
 }
 /* Estilos para el contenedor del menú */
 .menu-container {
-    background-image: url('source/banner2.jpg'); /* Ruta de tu imagen de fondo */
+    background-image: url('source/banner2.jpg'); 
     background-size: cover;
     background-position: center;  
-    text-align: center; /* Alinea el contenido al centro horizontalmente */
+    text-align: center; 
     margin-top: 20px;
 }
 /* Estilos para el menú */
@@ -85,27 +84,27 @@ body {
     margin: 0;
 }
 .menu li {
-    display: inline; /* Muestra los elementos en línea (horizontal) */
-    margin-right: 10px; /* Agrega un margen derecho entre los elementos */
+    display: inline; 
+    margin-right: 10px; 
 }
 /* Estilos para los botones del menú */
 .menu-boton{
-    background-color: #e9510a; /* Color de fondo */
-    color: #fff; /* Color del texto */
+    background-color: #e9510a; 
+    color: #fff;
     border: none;
-    padding: 10px 20px; /* Espaciado interno para los botones */
-    font-size: 16px; /* Tamaño de fuente */
+    padding: 10px 20px; 
+    font-size: 16px;
     cursor: pointer;
-    border-radius: 5px; /* Bordes redondeados */
-    margin-right: 10px; /* Margen derecho para separar los botones */
+    border-radius: 5px; 
+    margin-right: 10px;
 }
 /* Estilos para los botones al pasar el mouse */
 .menu-button:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+    background-color: #0056b3; 
 }
 /* Estilos para el carrusel */
 .carousel-container {
-    background-image: url('source/carrousel_backgraund.jpg'); /* Ruta de tu imagen de fondo */
+    background-image: url('source/carrousel_backgraund.jpg');
     background-size: cover;
     margin-top: 20px;
     border-color: #000000;
@@ -114,26 +113,24 @@ body {
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    position: relative; /* Agrega posición relativa para que los botones estén dentro del contenedor */
+    position: relative; 
 }
-
 .carousel {
     overflow: hidden;
-    width: 500px; /* Ancho deseado para el carrusel */
-    max-width: 100%; /* Para asegurarse de que se ajuste al contenedor */
+    width: 500px;
+    max-width: 100%; 
     position: relative;
 }
-
 .carousel-inner #carousel-inner {
         display: flex;
-        transition: transform 1s ease; /* Agrega una transición suave */
+        transition: transform 1s ease; 
     }
 .carousel img {
-    width: 100%; /* Para que las imágenes se ajusten al carrusel */
+    width: 100%;
     height: auto;
     display: block;
+    border-radius: 20px;  
 }
-
 /* Estilos para los botones */
 #prevBtn,
 #nextBtn {
@@ -151,20 +148,17 @@ body {
     flex-direction: row;
     align-items: center;
     cursor: pointer;
-    position: absolute; /* Coloca los botones encima del carrusel */
-    top: 50%; /* Coloca los botones en el centro verticalmente */
-    transform: translateY(-50%); /* Alinea verticalmente los botones */
-    z-index: 1; /* Coloca los botones encima del carrusel */
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    z-index: 1; 
 }
-
 #prevBtn {
-    left: 10px; /* Alinea el botón "Anterior" a la izquierda */
+    left: 10px;
 }
-
 #nextBtn {
-    right: 10px; /* Alinea el botón "Siguiente" a la derecha */
+    right: 10px; 
 }
-
 /* Estilo para los botones al pasar el mouse */
 #prevBtn:hover,
 #nextBtn:hover {
@@ -176,9 +170,8 @@ body {
     border: solid 2px #080808;
 }
 #titulo{
-    background-image: url('source/product_cctv_banner-2-1024x373.jpg'); /* Ruta de tu imagen de fondo */
-    background-size:cover ; /* Ajusta la imagen de fondo para cubrir el encabezado */
-    margin-top: 20px;
+    background-image: url('source/product_cctv_banner-2-1024x373.jpg'); 
+    background-size:cover ; 
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -187,36 +180,71 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 5px;
 }
-/* Estilos para el contenedor */
-.content {
-    margin-top: 10px;
+/* Estilos para el contenedor de la tabla */
+.content{
+    margin-top: 25px;
     background-color: rgb(255, 255, 255);
-    display: flex;
     align-items: center;
-}
-/* Estilos para la tabla */
-.content {
+    font-display: center;
     width: 100%;
     border-collapse: collapse;
-    text-align: left;
+    text-align: center;
     color: #000000;
-    font-weight: bold;   
 }
 .text-cell {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     font-style: italic;
     background-color: rgb(255, 255, 255);
-    border-bottom: #000000 2px solid;
 }
 .image-cell {
-    padding: 10px;
+    padding-right: 220px;
 }
 #imagen {
     background-size: cover;
     height: auto;
+    border: black 1px solid transparent; 
+    border-radius: 10px;
 }
+.content1 {
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    font-display: center;
+    font-style: italic;
+
+}
+/* Estilos para el contenedor del título y la imagen */
+.NuevaApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+.App{  
+    display:flex;
+    justify-content: center;
+}
+#App2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+#App2 img{
+    width:300px;
+    padding: 10px;
+}
+
+
+
+
+
+
 
 
 
