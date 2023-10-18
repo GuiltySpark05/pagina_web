@@ -227,6 +227,7 @@ body {
 .App{  
     display:flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 #App2{
     display: flex;
@@ -239,6 +240,11 @@ body {
     width:300px;
     padding: 10px;
 }
+.video p{
+    display: inline;
+    padding: 10px;
+}
+
 
 
 
